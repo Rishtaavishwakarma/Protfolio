@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(me2.jpg);
+	background-image: url(bg.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -310,6 +310,17 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
+.service-item .per{
+	visibility: hidden;
+}
+.service-item:hover{
+	font-size: x-large;
+	color: white;
+}
+.service-item .per{
+	visibility: visible;
+	color: #e6e7e8 ;
+}
 #services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
@@ -398,6 +409,22 @@ p {
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
+.project-info a
+{
+	padding-top:2rem;
+} 
+.project-info a button{
+	height: 5rem;
+	width: 20rem;
+	border-radius: 5px;
+	font-size: 1.70rem;
+}
+.project-info a button:hover{
+	background-color:rgb(153, 211, 231) ;
+	border-color: black;
+	box-shadow: whitesmoke;
+}
+
 /* End Projects section */
 
 /* About Section */
@@ -434,7 +461,7 @@ p {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid white;
+	border: 10px solid black;
 }
 #about .col-left .about-img::after {
 	content: '';
